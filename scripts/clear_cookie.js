@@ -87,5 +87,5 @@ var searchQuery;
     myoutput = require('../libs/pushing_output_to_aws.js');
      mystat = JSON.stringify(stat);
     console.log(mystat);
-     return slackObj.reply(finalPath);
+     return slackObj.reply("successfully deleted the cookie at the path " +finalPath);
   }
